@@ -1,0 +1,108 @@
+:root {
+    --unit: 1rem;
+    --primary-color-1: #46C2CB;
+    --primary-color-2: #E5E5CB;
+    --secondary-color: #2C3333;
+    --error-color: rgb(160, 24, 0);
+}
+
+
+*
+{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    font-family: sans-serif;
+   
+}
+
+
+.container
+{
+    color:white;
+    margin-top: 50px;
+    height: 480px;
+    width:480px;
+    padding:32px 32px;
+    background-image: linear-gradient(-45deg, var(--primary-color-1) 20%, var(--primary-color-2) 100%);
+    border-radius: var(--unit);
+}
+.searchIcon_searchButton
+{
+    display: flex;
+    gap:30px;
+    
+}
+.country_input
+{
+    height:50px;
+    width:350px;
+    border: none;
+    border-radius: 30px;
+    margin-left:20px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 200;
+}
+button{
+    height:60px;
+    width:60px;
+    background-color: white;
+    border-radius: 50%;
+    border:none;
+    cursor:pointer;
+}
+
+middle
+{
+margin-top:20px;
+display: flex;
+gap:60px;
+align-items: center;
+margin-left: 26px;
+}
+.middle-left
+{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.middle-left h1
+{
+    margin-left: 16px;
+}
+
+
+bottom
+{
+    display: flex;
+    align-items: center;
+ margin-top:14px;
+gap:190px;
+margin-left: 30px;
+}
+
+.bottom-left left
+{
+    display: flex;
+    gap:20px;
+    flex-direction: column;
+}
+.bottom-left right
+{
+    display: flex;
+    gap:20px;
+    flex-direction: column;
+}
+.country-name
+{
+    margin-top:15px;
+    display: flex;
+    justify-content: center;
+}
+
